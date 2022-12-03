@@ -1,0 +1,10 @@
+.button-toolbar button:hover {
+    border-radius: 100% !important;
+}
+.panelbtn:hover {
+  border-radius: 50% 0% 50% 50% !important;
+}
+
+.button-toolbar button, .panelbtn {
+      transition: 0.7s;
+}
