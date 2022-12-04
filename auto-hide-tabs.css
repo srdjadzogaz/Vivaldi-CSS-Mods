@@ -30,7 +30,7 @@
 #browser:has(footer > .toolbar-statusbar) #tabs-tabbar-container {margin-bottom: 24px;}
 
 /* experimental: pin tabbar while mouseover stacked thumbnail & context menu */
-#browser:has(#vivaldi-tooltip:is(:hover, :focus-within)) #tabs-tabbar-container.left, #browser.hasfocus:not(:has(#panels-container:focus-within)):not(:hover) #tabs-tabbar-container.left {clip-path:inset(0 -50px 0 -50px); transition: .15s ease-out .1s !important;}
+/* #browser:has(#vivaldi-tooltip:is(:hover, :focus-within)) #tabs-tabbar-container.left, #browser.hasfocus:not(:has(#panels-container:focus-within)):not(:hover) #tabs-tabbar-container.left {clip-path:inset(0 -50px 0 -50px); transition: .15s ease-out .1s !important;}
 
 #browser:has(#vivaldi-tooltip:is(:hover, :focus-within)) #tabs-tabbar-container.right, #browser.hasfocus:not(:has(#panels-container:focus-within)):not(:hover) #tabs-tabbar-container.right {transform:translateX(0); transition: .15s ease-out .1s !important;}
-
+*/
